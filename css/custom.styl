@@ -1,0 +1,165 @@
+_BLACK=#080607
+_BROWN =#241c19
+_DARK_GREY=#2f292b
+_LIGHT_GREY_1=#FFF9F7
+_LIGHT_GREY=#5e4f4c
+_DARK_RED=#701f1b
+_LIGTH_RED=#be4636
+_CUSTOM_WHITE = #ffffff
+
+
+html
+	scroll-behavior: smooth
+	background-color : _LIGHT_GREY_1
+
+
+body
+	max-width : 1140px
+	margin : auto
+	line-height: 1.5;
+	font-size: 1.2em
+	color : rgb(0.05, 0.05, 0.05)
+	background-color: white
+	box-shadow: 0 1px 36px rgba(0, 0, 0, 0.2)
+	@media screen and (max-width: 960px)
+		margin: 1em
+	@media screen and (max-width: 600px)
+		font-size: 1em
+		margin 0
+
+p, li, a, h3	
+	font-family: 'Montserrat', sans-serif
+h1, h2
+	font-family: 'Sarabun', sans-serif
+a	
+	color : _LIGTH_RED
+
+.section
+	padding: 1em
+	padding-left: 4em
+	padding-right: 4em
+	@media screen and (max-width: 600px)
+		padding: 1em
+	h2
+		text-align: center
+		font-size: 2em
+
+.red-section
+	background-color: _LIGTH_RED
+	color :_CUSTOM_WHITE
+
+.slick-prev
+	left : -56px
+.slick-next
+
+.slick-prev, .slick-next
+	&:before
+		font-size: 48px;
+.slick-dots li button&:before
+	font-size: 12px
+	color: _CUSTOM_WHITE
+.slick-dots li.slick-active button&:before
+	color: _CUSTOM_WHITE
+
+.carousel
+	box-shadow: 0 1px 8px rgba(0,0,0,0.66)
+	.slide
+		position : relative
+		width : 100%
+		img
+			width: 100%
+			vertical-align: bottom
+		.img-description
+			font-size: 0.9em;
+			position: absolute
+			left : 0
+			right : 0
+			bottom: 0
+			background: rgba(0, 0,0 , 0.65)
+			color: _CUSTOM_WHITE
+			margin : 0
+			padding: 1em
+			@media screen and (max-width: 960px)
+				position: relative
+			a
+				color : #c49a6c
+
+	
+#about
+	h1
+		font-size: 3em
+		margin-bottom: 0em
+		@media screen and (max-width: 425px)
+			font-size: 2em
+
+	h3
+		margin-top: 0
+	.about-content
+		display : inline-flex
+		@media screen and (max-width: 960px)
+			display: block
+		div
+			flex : 1
+			img 
+				width : 100%
+				@media screen and (max-width: 960px)
+					display: none
+		p
+			flex : 3
+			margin: 0
+			margin-left: 1em
+			text-align : left
+			@media screen and (max-width: 960px)
+				margin-left: 0em
+
+
+.dl-cv
+	font-size: 1.2em
+	text-align: center
+	margin: 2em 1em 1em 1em
+	a
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+		background-color: _CUSTOM_WHITE
+		border-radius: 8px
+		margin: 1.5em
+		color: _LIGTH_RED
+		text-decoration: none
+		padding: 0.5em	
+		padding-left: 1em	
+		padding-right: 1em
+		&:hover
+			background-color: _DARK_RED
+		@media screen and (max-width: 960px)
+			display:block
+		@media screen and (max-width: 375px)
+			font-size: 0.8em
+			
+
+#skills
+	div
+		display: inline-flex
+		width : 100%
+		@media screen and (max-width: 960px)
+			display: block
+			ul
+				margin: 0
+		ul
+			flex : 1
+
+#experiences
+	.experience-cnt
+		border-left: 4px solid _LIGTH_RED;
+		padding-left: 0.8em
+		margin: 0.5em
+
+#realisations
+	ul
+		li
+			display: inline-flex
+			p
+				flex : 1
+			.img-cnt
+				flex : 1
+				img
+					width : 100%
+					max-width: 480px		

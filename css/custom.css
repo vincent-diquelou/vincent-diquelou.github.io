@@ -1,0 +1,203 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #fff9f7;
+}
+body {
+  max-width: 1140px;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 1.2em;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 1px 36px rgba(0,0,0,0.2);
+}
+@media screen and (max-width: 960px) {
+  body {
+    margin: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+p,
+li,
+a,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2 {
+  font-family: 'Sarabun', sans-serif;
+}
+a {
+  color: #be4636;
+}
+.section {
+  padding: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 1em;
+  }
+}
+.section h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.red-section {
+  background-color: #be4636;
+  color: #fff;
+}
+.slick-prev {
+  left: -56px;
+}
+.slick-next:before,
+.slick-prev:before {
+  font-size: 48px;
+}
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #fff;
+}
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.carousel {
+  box-shadow: 0 1px 8px rgba(0,0,0,0.66);
+}
+.carousel .slide {
+  position: relative;
+  width: 100%;
+}
+.carousel .slide img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.carousel .slide .img-description {
+  font-size: 0.9em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  margin: 0;
+  padding: 1em;
+}
+@media screen and (max-width: 960px) {
+  .carousel .slide .img-description {
+    position: relative;
+  }
+}
+.carousel .slide .img-description a {
+  color: #c49a6c;
+}
+#about h1 {
+  font-size: 3em;
+  margin-bottom: 0em;
+}
+@media screen and (max-width: 425px) {
+  #about h1 {
+    font-size: 2em;
+  }
+}
+#about h3 {
+  margin-top: 0;
+}
+#about .about-content {
+  display: inline-flex;
+}
+@media screen and (max-width: 960px) {
+  #about .about-content {
+    display: block;
+  }
+}
+#about .about-content div {
+  flex: 1;
+}
+#about .about-content div img {
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  #about .about-content div img {
+    display: none;
+  }
+}
+#about .about-content p {
+  flex: 3;
+  margin: 0;
+  margin-left: 1em;
+  text-align: left;
+}
+@media screen and (max-width: 960px) {
+  #about .about-content p {
+    margin-left: 0em;
+  }
+}
+.dl-cv {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 2em 1em 1em 1em;
+}
+.dl-cv a {
+  box-shadow: 0 1px 5px rgba(0,0,0,0.26);
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 1.5em;
+  color: #be4636;
+  text-decoration: none;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.dl-cv a:hover {
+  background-color: #701f1b;
+}
+@media screen and (max-width: 960px) {
+  .dl-cv a {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  .dl-cv a {
+    font-size: 0.8em;
+  }
+}
+#skills div {
+  display: inline-flex;
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  #skills div {
+    display: block;
+  }
+  #skills div ul {
+    margin: 0;
+  }
+}
+#skills div ul {
+  flex: 1;
+}
+#experiences .experience-cnt {
+  border-left: 4px solid #be4636;
+  padding-left: 0.8em;
+  margin: 0.5em;
+}
+#realisations ul li {
+  display: inline-flex;
+}
+#realisations ul li p {
+  flex: 1;
+}
+#realisations ul li .img-cnt {
+  flex: 1;
+}
+#realisations ul li .img-cnt img {
+  width: 100%;
+  max-width: 480px;
+}
