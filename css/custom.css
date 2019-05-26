@@ -56,6 +56,11 @@ a {
 .slick-prev {
   left: -56px;
 }
+.slick-next,
+.slick-prev {
+  width: 48px;
+  height: 48px;
+}
 .slick-next:before,
 .slick-prev:before {
   font-size: 48px;
