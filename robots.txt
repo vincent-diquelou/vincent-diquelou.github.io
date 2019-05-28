@@ -1,5 +1,6 @@
 # www.robotstxt.org/
 
 # Allow crawling of all content
-User-agent: *
+Sitemap: https://vincent-diquelou.github.io/sitemap.xml
+User-agent:*
 Disallow:
