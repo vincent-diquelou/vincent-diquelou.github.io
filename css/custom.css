@@ -56,13 +56,16 @@ a {
 .slick-prev {
   left: -56px;
 }
-.slick-next,
-.slick-prev {
+.slick-next {
+  right: -56px;
+}
+.slick-prev,
+.slick-next {
   width: 48px;
   height: 48px;
 }
-.slick-next:before,
-.slick-prev:before {
+.slick-prev:before,
+.slick-next:before {
   font-size: 48px;
 }
 .slick-dots li button:before {
@@ -126,6 +129,7 @@ a {
   flex: 1;
 }
 #about .about-content div img {
+  border-radius: 256px;
   width: 100%;
 }
 @media screen and (max-width: 960px) {
