@@ -33,7 +33,7 @@ h2 {
   font-family: 'Sarabun', sans-serif;
 }
 a {
-  color: #be4636;
+  color: #5779ab;
 }
 .section {
   padding: 1em;
@@ -50,7 +50,7 @@ a {
   font-size: 2em;
 }
 .red-section {
-  background-color: #be4636;
+  background-color: #5779ab;
   color: #fff;
 }
 .slick-prev {
@@ -158,14 +158,14 @@ a {
   background-color: #fff;
   border-radius: 8px;
   margin: 1.5em;
-  color: #be4636;
+  color: #5779ab;
   text-decoration: none;
   padding: 0.5em;
   padding-left: 1em;
   padding-right: 1em;
 }
 .dl-cv a:hover {
-  background-color: #701f1b;
+  background-color: #335283;
 }
 @media screen and (max-width: 960px) {
   .dl-cv a {
@@ -193,7 +193,7 @@ a {
   flex: 1;
 }
 #experiences .experience-cnt {
-  border-left: 4px solid #be4636;
+  border-left: 4px solid #5779ab;
   padding-left: 0.8em;
   margin: 0.5em;
 }
