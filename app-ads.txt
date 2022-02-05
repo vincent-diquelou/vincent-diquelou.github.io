@@ -63,4 +63,3 @@ bidmachine.io, 113, RESELLER
 bidmachine.io, 114, RESELLER
 bidmachine.io, 67, RESELLER
 lemmatechnologies.com, 362, RESELLER, 7829010c5bebd1fb
-google.com, , DIRECT, f08c47fec0942fa0
