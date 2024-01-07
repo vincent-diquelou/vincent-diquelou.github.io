@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ExternalAssets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AllowNestingAttribute.cs.meta
+guid: 95b49d3abe880c044adbe7faf6b7b4ec
+========
+guid: 7373332cb77b42744a415d6b4add445d
+>>>>>>>> Vincent/MainUIReworks:Assets/ExternalAssets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AnimatorParamAttribute.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
