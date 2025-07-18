@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to My Lovely Planet...</title>
+  <script>
+    function isIOS() {
+      return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    function isAndroid() {
+      return /Android/i.test(navigator.userAgent);
+    }
+
+    window.onload = function () {
+      const params = new URLSearchParams(window.location.search);
+      const code = params.get("code");
+
+      if (!code) {
+        document.body.innerHTML = "<p>Missing 'code' parameter in URL.</p>";
+        return;
+      }
+
+      const redirectUrl = `mlp://addreferral?${encodeURIComponent(code)}`;
+
+      // Determine fallback URL based on platform
+      const fallbackUrl = isIOS()
+        ? "https://apps.apple.com/fr/app/my-lovely-planet-puzzle-match3/id6473546315"
+        : isAndroid()
+        ? "https://play.google.com/store/apps/details?id=com.mylovelyplanet.mylovelyforests"
+        : "https://www.mylovelyplanet.org"; // fallback for unknown platform
+
+      // Start timer to fallback
+      const timeout = setTimeout(() => {
+        window.location.href = fallbackUrl;
+      }, 1500);
+
+      // Redirect to the app via custom URI scheme
+      window.location.href = redirectUrl;
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you to My Lovely Planet...</p>
+</body>
+</html>
